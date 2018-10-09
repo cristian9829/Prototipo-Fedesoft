@@ -1,0 +1,59 @@
+@media screen and (min-width: 1250px){
+	*{
+		margin:0;
+		padding:0;
+	}
+
+	body{
+		/*background-color: rgba(112, 123, 124,0.5);*/
+		width:100%;
+		font-family: 'K2D', sans-serif;
+		overflow-y:hidden;
+	}
+
+
+	/*==============================CONTENIDO=========================================*/
+
+	.contenedorPadre{
+		display: flex;
+		justify-content:space-between;
+		height:1000px;
+		width: 100%;
+	}
+
+	.contenedorPadre .contenedorImagen{
+		background-image:url("../Imagenes/hombre.jpg"); 
+		background-size:contain;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		width: 60%;
+	}
+
+	.contenedorPadre .contenedorFormulario{
+		width: 40%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.contenedorPadre .contenedorFormulario form{
+		width: 50%;
+		padding-top:40%;
+	}
+
+	.contenedorPadre .contenedorFormulario form label, button{
+		margin-bottom:5%;
+		margin-top:10%;
+	}
+
+	#formulario2{
+		display: none;
+	}
+
+}
+
+
+
+
+

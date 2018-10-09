@@ -1,0 +1,48 @@
+@media screen and (max-width:480px){
+	*{
+		margin:0;
+		padding:0;
+	}
+
+	body{
+		background-color: rgba(112, 123, 124,0.5);
+		width:100%;
+		font-family: 'K2D', sans-serif;
+		background-image:url("../Imagenes-Movil/fondo2.jpg"); 
+		background-size:cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+
+	/*==============================CONTENIDO=========================================*/
+
+	.contenedorPadre{
+		
+		height:1000px;
+		width: 100%;
+		margin-top:2%;
+	}
+
+	.contenedorPadre .contenedorImagen{
+	}
+
+	.contenedorPadre .contenedorFormulario{
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.contenedorPadre .contenedorFormulario form{
+		width: 90%;
+		padding:5%;
+		margin-top:30%;
+		
+	}
+
+	.contenedorPadre .contenedorFormulario form label, button{
+		margin-bottom:8%;
+		margin-top:8%;
+	}
+}
