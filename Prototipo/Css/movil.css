@@ -8,7 +8,7 @@
 		background-color: rgba(112, 123, 124,0.5);
 		width:100%;
 		font-family: 'K2D', sans-serif;
-		background-image:url("../Imagenes-Movil/fondo2.jpg"); 
+		background-image:url("../Imagenes-Movil/fondo1.jpg"); 
 		background-size:cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -41,8 +41,28 @@
 		
 	}
 
+
+
 	.contenedorPadre .contenedorFormulario form label, button{
 		margin-bottom:8%;
 		margin-top:8%;
 	}
+
+	#formulario2{
+		display: none;
+	}
+
+	#formulario2 input{
+		font-size:80%;
+	}
+
+	textarea{
+		min-height:50px;
+		max-height:120px;
+	}
+
+	.contenedorFormulario p{
+		display: none;
+	}
+
 }

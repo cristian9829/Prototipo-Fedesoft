@@ -14,7 +14,7 @@
 			<div class="contenedorPadre">
 				<!-- Contenedor-Imagen -->
 				<div class="contenedorImagen">
-					<img src="">
+					
 
 				</div>
 
@@ -24,7 +24,7 @@
 					<form action="/action_page.php">
 						<p>INGRESE SU DOCUMENTO</p>
 												
-						<label for="email">Tipo de documento</label>																
+						<label for="email">Tipo de documento</label>															
 						<select class="form-control" id="sel1">
 						    <option>Cedula de Ciudadania - CC</option>
 						    <option>Tarjeta de Identidad - TE</option>
@@ -32,7 +32,8 @@
 						</select>			
 											
 											
-						<label for="numero">Numero</label>												
+						<label for="numero">Numero</label>				
+						<p class="advertencia">Llene el campo</p>		
 						<input placeholder="Digite su numero de documento" type="numeric" class="form-control " id="numero">										
 			 						
 			 			<button id="btn-documento-siguiente" type="submit" class="btn btn-info">Siguiente</button>
@@ -49,7 +50,12 @@
 						    <option>Carro</option>
 						    <option>Moto</option>
 						    <option>otro</option>
-						</select>							
+						</select>			
+
+						<div class="form-group">
+						    <label for="exampleFormControlTextarea1">Example textarea</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>				
 			 			
 			 			<button id="btn-documento-atras" type="submit" class="btn btn-danger">Volver</button>
 			 			<button id="btn-form2" type="submit" class="btn btn-info">Siguiente</button>				

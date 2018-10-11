@@ -9,7 +9,7 @@
 		width:100%;
 		font-family: 'K2D', sans-serif;
 		background-size: cover;
-		background-image:url("../Imagenes/hombre.jpg"); 
+		background-image:url("../Imagenes/fondo0.jpg"); 
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 	}
@@ -40,6 +40,11 @@
 		margin-top:15%;
 	}
 
+	#formulario2{
+		display: none;
+	}
+
+
 }
 
 @media screen and (max-width: 768px){
@@ -52,10 +57,11 @@
 		/*background-color: rgba(112, 123, 124,0.5);*/
 		width:100%;
 		font-family: 'K2D', sans-serif;
-		background-image:url("../Imagenes-tablets/fondo.jpg"); 
+		background-image:url("../Imagenes-tablets/fondo1.jpg"); 
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
+		overflow-y: hidden;
 	}
 
 
@@ -87,5 +93,11 @@
 	.contenedorPadre .contenedorFormulario form label, button{
 		margin-bottom:5%;
 		margin-top:5%;
+		font-size:90%;
 	}	
+
+	#formulario2{
+		display: none;
+	}
+
 }
